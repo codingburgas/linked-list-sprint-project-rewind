@@ -1,3 +1,8 @@
-#include "../header/logInScreen.h"
+﻿#include "../headers/logInScreen.h"
+#include "../headers/visualFunctions.h"
 
-void loginScreen();
+void logInScreen() {
+	fullScreen();
+
+
+}

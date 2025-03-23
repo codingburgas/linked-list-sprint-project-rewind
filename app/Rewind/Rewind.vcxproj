@@ -19,14 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="header\logInScreen.h" />
-    <ClInclude Include="header\pch.h" />
-    <ClInclude Include="header\visualFunctions.h" />
+    <ClInclude Include="Headers\buttons.h" />
+    <ClInclude Include="Headers\logInScreen.h" />
+    <ClInclude Include="Headers\pch.h" />
+    <ClInclude Include="Headers\visualFunctions.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\logInScreen.cpp" />
-    <ClCompile Include="source\main.cpp" />
-    <ClCompile Include="source\visualFunctions.cpp" />
+    <ClCompile Include="Source\buttons.cpp" />
+    <ClCompile Include="Source\logInScreen.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\visualFunctions.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

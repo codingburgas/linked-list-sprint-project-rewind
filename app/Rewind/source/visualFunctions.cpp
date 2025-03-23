@@ -1,4 +1,4 @@
-#include "../header/visualFunctions.h"
+#include "../headers/visualFunctions.h"
 
 //A function that clears the screen. Works across platforms
 void clearScreen() {
