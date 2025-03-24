@@ -15,6 +15,21 @@ void fullScreen() {
     keybd_event(VK_MENU, 0x38, KEYEVENTF_KEYUP, 0);
 }
 
+void printLogo() {
+    std::cout << "\n\n\n\n\n\n\n\n";
+    
+    std::ifstream file("logo.txt");
+
+    for (int i = 0; i < 8; i++) {
+        std::string logoLine;
+        std::getline(file, logoLine);
+        centerText(logoLine);
+    }
+
+    file.close();
+
+    std::cout << "\n\n\n\n";
+}
 
 int getConsoleWidth() {
     CONSOLE_SCREEN_BUFFER_INFO consoleInfo;
