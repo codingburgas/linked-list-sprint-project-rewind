@@ -1,8 +1,9 @@
 #include "./pch.h"
 #include "./eventsMenu.h"
 #include "./visualFunctions.h"
+#include "./eventManager.h" // Assuming event functions will be handled here
 
-void PrintEventMenuOption(std::string option, bool isSelected) {
+void PrintEventsMenuOption(std::string option, bool isSelected) {
     if (isSelected) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 11);
 
     std::cout << std::string((getConsoleWidth() - 38) / 2, ' ') << char(201);
@@ -31,45 +32,50 @@ void ShowEventsMenu() {
     bool selecting = true;
     int selectedOption = 0;
 
-    std::string eventMenuOptions[5] = {
-        "             Add Event              ",
+    std::string eventsMenuOptions[5] = {
+        "              Add Event             ",
         "             Edit Event             ",
         "            Delete Event            ",
         "            Search Event            ",
-        "          Back to Main Menu         "
+        "                Back                "
     };
 
     while (selecting) {
         clearScreen();
-        printLogo("eventslogo.txt");
+
+        printLogo("eventsLogo.txt");
 
         for (int i = 0; i < 5; i++) {
-            PrintEventMenuOption(eventMenuOptions[i], i == selectedOption);
+            PrintEventsMenuOption(eventsMenuOptions[i], i == selectedOption);
         }
 
         char key = _getch();
 
-        if (key == 72) {
+        if (key == 72) { // Up Arrow Key
             selectedOption = (selectedOption == 0) ? 4 : selectedOption - 1;
         }
-        else if (key == 80) {
+        else if (key == 80) { // Down Arrow Key
             selectedOption = (selectedOption == 4) ? 0 : selectedOption + 1;
         }
         else if (key == 13) { // Enter Key
+            clearScreen();
             if (selectedOption == 0) {
-                // Function to add event
+                // Add Event
+                AddEvent();
             }
             else if (selectedOption == 1) {
-                // Function to edit event
+                EditEvent();
             }
             else if (selectedOption == 2) {
-                // Function to delete event
+                // Delete Event
+                DeleteEvent();
             }
             else if (selectedOption == 3) {
-                // Function to search event
+                // Search Event
+                SearchEvent();
             }
             else if (selectedOption == 4) {
-                selecting = false;
+                selecting = false; // Back to Main Menu
             }
         }
     }

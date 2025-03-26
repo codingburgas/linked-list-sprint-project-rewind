@@ -128,18 +128,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="button.cpp" />
+    <ClCompile Include="eventManager.cpp" />
     <ClCompile Include="eventsMenu.cpp" />
     <ClCompile Include="loginScreen.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mainMenu.cpp" />
+    <ClCompile Include="reportsMenu.cpp" />
     <ClCompile Include="visualFunctions.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="button.h" />
+    <ClInclude Include="eventManager.h" />
     <ClInclude Include="eventsMenu.h" />
     <ClInclude Include="loginScreen.h" />
     <ClInclude Include="mainMenu.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="reportsMenu.h" />
     <ClInclude Include="visualFunctions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

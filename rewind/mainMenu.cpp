@@ -2,6 +2,7 @@
 #include "./mainMenu.h"
 #include "./visualFunctions.h"
 #include "./eventsMenu.h"
+#include "./reportsMenu.h"
 
 void PrintMenuOption(std::string option, bool isSelected) {
     if (isSelected) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 11);
@@ -51,23 +52,28 @@ void ShowMainMenu() {
 
         char key = _getch();
 
-        if (key == 72) { // Up Arrow Key
+        if (key == 72) {
             selectedOption = (selectedOption == 0) ? 3 : selectedOption - 1;
         }
-        else if (key == 80) { // Down Arrow Key
+        else if (key == 80) {
             selectedOption = (selectedOption == 3) ? 0 : selectedOption + 1;
         }
-        else if (key == 13) { // Enter Key
+        else if (key == 13) {
             if (selectedOption == 0) {
                 ShowEventsMenu();
             }
             else if (selectedOption == 1) {
-                // Open Reports Menu
+                ShowReportsMenu();
             }
             else if (selectedOption == 2) {
                 // Sign Out
             }
             else if (selectedOption == 3) {
+                clearScreen();
+                std::cout << "\n\n";
+                centerText("Thank you for using the program!");
+                std::cout << "\n\n";
+                system("pause >nul");
                 exit(0);
             }
         }
