@@ -1,6 +1,10 @@
 #include "./pch.h"
 #include "./reportsMenu.h"
 #include "./visualFunctions.h"
+#include "./reportsManager.h"
+#include "./eventManager.h"
+
+extern std::vector<Event> events;
 
 void PrintReportsMenuOption(std::string option, bool isSelected) {
     if (isSelected) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 11);
@@ -31,42 +35,58 @@ void ShowReportsMenu() {
     bool selecting = true;
     int selectedOption = 0;
 
-    std::string reportsOptions[4] = {
-        "        List All Event Titles       ",
-        "          Events By Date            ",
-        "         Events by leader           ",
-        "                Back                "
+    std::string reportsOptions[8] = {
+        "          Events by Date            ",
+        "          Events by Title           ",
+        "          Events by Theme           ",
+        "         Events by Location         ",
+        "       Events by Participants       ",
+        "          Events by Result          ",
+        "          Search an Event           ",
+        "               Back                 "
     };
 
     while (selecting) {
         clearScreen();
-
         printLogo("reportsLogo.txt");
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 8; i++) {
             PrintReportsMenuOption(reportsOptions[i], i == selectedOption);
         }
 
         char key = _getch();
 
-        if (key == 72) { // Up Arrow Key
-            selectedOption = (selectedOption == 0) ? 3 : selectedOption - 1;
+        if (key == 72) {
+            selectedOption = (selectedOption == 0) ? 7 : selectedOption - 1;
         }
-        else if (key == 80) { // Down Arrow Key
-            selectedOption = (selectedOption == 3) ? 0 : selectedOption + 1;
+        else if (key == 80) {
+            selectedOption = (selectedOption == 7) ? 0 : selectedOption + 1;
         }
-        else if (key == 13) { // Enter Key
+        else if (key == 13) {
+            clearScreen();
             if (selectedOption == 0) {
-                // Function to list all event titles
+                ShowEventsByDate(events);
             }
             else if (selectedOption == 1) {
-                // Function to show events by theme
+                ShowEventsByTitle(events);
             }
             else if (selectedOption == 2) {
-                
+                ShowEventsByTheme(events);
             }
             else if (selectedOption == 3) {
-                selecting = false; // Go back to Main Menu
+                ShowEventsByLocation(events);
+            }
+            else if (selectedOption == 4) {
+                ShowEventsByParticipants(events);
+            }
+            else if (selectedOption == 5) {
+                ShowEventsByResult(events);
+            }
+            else if (selectedOption == 6) {
+                SearchEvent(events);
+            }
+            else if (selectedOption == 7) {
+                selecting = false;
             }
         }
     }

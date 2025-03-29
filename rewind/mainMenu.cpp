@@ -1,7 +1,7 @@
 #include "./pch.h"
 #include "./mainMenu.h"
 #include "./visualFunctions.h"
-#include "./eventsMenu.h"
+#include "./eventMenu.h"
 #include "./reportsMenu.h"
 
 void PrintMenuOption(std::string option, bool isSelected) {
@@ -69,11 +69,6 @@ void ShowMainMenu() {
                 // Sign Out
             }
             else if (selectedOption == 3) {
-                clearScreen();
-                std::cout << "\n\n";
-                centerText("Thank you for using the program!");
-                std::cout << "\n\n";
-                system("pause >nul");
                 exit(0);
             }
         }

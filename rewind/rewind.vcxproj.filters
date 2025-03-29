@@ -18,9 +18,6 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="button.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="loginScreen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -30,7 +27,7 @@
     <ClCompile Include="visualFunctions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="eventsMenu.cpp">
+    <ClCompile Include="eventMenu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="reportsMenu.cpp">
@@ -39,11 +36,11 @@
     <ClCompile Include="eventManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="reportsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="button.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="loginScreen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -56,13 +53,16 @@
     <ClInclude Include="visualFunctions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="eventsMenu.h">
+    <ClInclude Include="eventMenu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="reportsMenu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="eventManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="reportsManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
