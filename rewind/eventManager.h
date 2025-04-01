@@ -14,7 +14,5 @@ struct Event {
 void AddEvent();
 void EditEvent();
 void DeleteEvent();
-void SearchEvent();
-void ListAllEvents();
 void PrintEventDetails(const Event& event);
 void PrintAllEvents(const std::vector<Event>& events);

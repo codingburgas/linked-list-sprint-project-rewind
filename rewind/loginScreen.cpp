@@ -1,4 +1,5 @@
 #include "./logInScreen.h"
+#include "./visualFunctions.h"
 
 void printLoginInput(std::string input, bool isSelected, bool isHidden, int  inputWidth) {
     if (isHidden) input = std::string(input.length(), '*');
@@ -187,7 +188,9 @@ void logInScreen() {
     while (selecting) {
         clearScreen();
 
-        paddingUp(30);
+        printLogo("logo.txt");
+
+        paddingUp(5);
 
         for (int i = 0; i < 3; i++) {
             printBoxA(logInOptions[i], i == selectedOption, 24);

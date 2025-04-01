@@ -79,23 +79,23 @@ void printCriteria(std::string input, int inputId) {
     if (inputId == 0) {
         checks = checkUsername(input);
 
-        if (!checks[0]) std::cout << std::string((getConsoleWidth() - 48) / 2, ' ') << "Username must not be shorter than 8 characters" << "\n";
-        if (!checks[1]) centerText("Username must be unique");
+        if (!checks[0]) std::cout << std::string((getConsoleWidth() - 38) / 2, ' ') << "Username must be at least 8 characters" << "\n";
+        if (!checks[1]) centerText("Username already in use");
 
-        if (checks[0] && checks[1]) centerText("Username is valid");
+        if (checks[0] && checks[1]) centerText("Your username looks good!");
 
         paddingUp(14);
     }
     else if (inputId < 3) {
         checks = checkPassword(input);
 
-        if (!checks[0]) std::cout << std::string((getConsoleWidth() - 48) / 2, ' ') << "Password must not be shorter than 8 characters" << "\n\n";
-        if (!checks[1]) std::cout << std::string((getConsoleWidth() - 48) / 2, ' ') << "Password must contain at least one letter in Uppercase" << "\n\n";
-        if (!checks[2]) std::cout << std::string((getConsoleWidth() - 48) / 2, ' ') << "Password must contain at least one letter in Lowercase" << "\n\n";
-        if (!checks[3]) std::cout << std::string((getConsoleWidth() - 48) / 2, ' ') << "Password must contain at least one digit" << "\n\n";
-        if (!checks[4]) std::cout << std::string((getConsoleWidth() - 48) / 2, ' ') << "Password must contain at least one special character (!, @, #...)" << "\n\n";
+        if (!checks[0]) std::cout << std::string((getConsoleWidth() - 42) / 2, ' ') << "Password must be at least 8 characters" << "\n\n";
+        if (!checks[1]) std::cout << std::string((getConsoleWidth() - 42) / 2, ' ') << "Password must contain at least one uppercase letter" << "\n\n";
+        if (!checks[2]) std::cout << std::string((getConsoleWidth() - 42) / 2, ' ') << "Password must contain at least one Lowercase letter" << "\n\n";
+        if (!checks[3]) std::cout << std::string((getConsoleWidth() - 42) / 2, ' ') << "Password must contain at least one number" << "\n\n";
+        if (!checks[4]) std::cout << std::string((getConsoleWidth() - 42) / 2, ' ') << "Password must contain at least one special character (!, @, #...)" << "\n\n";
 
-        if (checks[0] && checks[1] && checks[2] && checks[3] && checks[4]) centerText("Password is valid");
+        if (checks[0] && checks[1] && checks[2] && checks[3] && checks[4]) centerText("Your password looks good!");
 
         paddingUp(((checks[0] + checks[1] + checks[2] + checks[3] + checks[4]) * 2 + 5) - ((checks[0] && checks[1] && checks[2] && checks[3] && checks[4]) ? 1 : 0));
     }

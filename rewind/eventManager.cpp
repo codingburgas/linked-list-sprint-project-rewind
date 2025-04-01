@@ -96,33 +96,14 @@ void DeleteEvent() {
     system("pause");
 }
 
-void SearchEvent() {
-    std::string query;
-    std::cout << "Enter a keyword to search: ";
-    std::getline(std::cin, query);
-
-    bool found = false;
-    for (const auto& event : events) {
-        if (event.title.find(query) != std::string::npos || event.theme.find(query) != std::string::npos) {
-            PrintEventDetails(event);
-            found = true;
-        }
-    }
-
-    if (!found) {
-        std::cout << "No events found matching that keyword.\n";
-    }
-    system("pause");
-}
-
 void PrintEventDetails(const Event& event) {
+    std::cout << "----------------------------------------\n";
     std::cout << "Date: " << event.date << "\n";
     std::cout << "Title: " << event.title << "\n";
     std::cout << "Theme: " << event.theme << "\n";
     std::cout << "Location: " << event.location << "\n";
     std::cout << "Participants: " << event.participants << "\n";
     std::cout << "Result: " << event.result << "\n";
-    std::cout << "----------------------------------------\n";
 }
 
 void PrintAllEvents(const std::vector<Event>& events) {

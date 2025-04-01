@@ -32,11 +32,10 @@ void ShowEventsMenu() {
     bool selecting = true;
     int selectedOption = 0;
 
-    std::string eventsMenuOptions[5] = {
-        "              Add Event             ",
+    std::string eventsMenuOptions[4] = {
+        "             Add Event              ",
         "             Edit Event             ",
         "            Delete Event            ",
-        "            Search Event            ",
         "                Back                "
     };
 
@@ -45,17 +44,17 @@ void ShowEventsMenu() {
 
         printLogo("eventsLogo.txt");
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 4; i++) {
             PrintEventsMenuOption(eventsMenuOptions[i], i == selectedOption);
         }
 
         char key = _getch();
 
         if (key == 72) {
-            selectedOption = (selectedOption == 0) ? 4 : selectedOption - 1;
+            selectedOption = (selectedOption == 0) ? 3 : selectedOption - 1;
         }
         else if (key == 80) {
-            selectedOption = (selectedOption == 4) ? 0 : selectedOption + 1;
+            selectedOption = (selectedOption == 3) ? 0 : selectedOption + 1;
         }
         else if (key == 13) {
             clearScreen();
@@ -69,9 +68,6 @@ void ShowEventsMenu() {
                 DeleteEvent();
             }
             else if (selectedOption == 3) {
-                SearchEvent();
-            }
-            else if (selectedOption == 4) {
                 selecting = false;
             }
         }

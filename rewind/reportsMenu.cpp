@@ -65,25 +65,25 @@ void ShowReportsMenu() {
         else if (key == 13) {
             clearScreen();
             if (selectedOption == 0) {
-                ShowEventsByDate(events);
+                ShowEventsByDate();
             }
             else if (selectedOption == 1) {
-                ShowEventsByTitle(events);
+                ShowEventsByTitle();
             }
             else if (selectedOption == 2) {
-                ShowEventsByTheme(events);
+                ShowEventsByTheme();
             }
             else if (selectedOption == 3) {
-                ShowEventsByLocation(events);
+                ShowEventsByLocation();
             }
             else if (selectedOption == 4) {
-                ShowEventsByParticipants(events);
+                ShowEventsByParticipants();
             }
             else if (selectedOption == 5) {
-                ShowEventsByResult(events);
+                ShowEventsByResult();
             }
             else if (selectedOption == 6) {
-                SearchEvent(events);
+                SearchEvent();
             }
             else if (selectedOption == 7) {
                 selecting = false;
