@@ -5,6 +5,8 @@ void clearScreen();
 
 void fullScreen();
 
+void paddingUp(int paddingSize);
+
 void printLogo(const std::string& filename);
 
 int getConsoleWidth();

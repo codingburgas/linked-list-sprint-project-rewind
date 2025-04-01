@@ -34,6 +34,10 @@ void printLogo(const std::string& filename) {
     std::cout << "\n\n\n\n";
 }
 
+void paddingUp(int paddingSize) {
+    for (int i = 0; i < paddingSize; i++) std::cout << std::endl;
+}
+
 int getConsoleWidth() {
     CONSOLE_SCREEN_BUFFER_INFO consoleInfo;
     GetConsoleScreenBufferInfo(GetStdHandle(STD_OUTPUT_HANDLE), &consoleInfo);
