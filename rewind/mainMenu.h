@@ -1,5 +1,5 @@
 #pragma once
 
-void PrintMenuOption(std::string option, bool isSelected);
+void printMenuOption(std::string option, bool isSelected);
 
-void ShowMainMenu();
+void showMainMenu();

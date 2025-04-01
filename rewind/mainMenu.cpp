@@ -4,7 +4,7 @@
 #include "./eventMenu.h"
 #include "./reportsMenu.h"
 
-void PrintMenuOption(std::string option, bool isSelected) {
+void printMenuOption(std::string option, bool isSelected) {
     if (isSelected) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 11);
 
     std::cout << std::string((getConsoleWidth() - 38) / 2, ' ') << char(201);
@@ -27,7 +27,7 @@ void PrintMenuOption(std::string option, bool isSelected) {
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
 }
 
-void ShowMainMenu() {
+void showMainMenu() {
     clearScreen();
 
     bool selecting = true;
@@ -47,7 +47,7 @@ void ShowMainMenu() {
         printLogo("logo.txt");
 
         for (int i = 0; i < 4; i++) {
-            PrintMenuOption(menuOptions[i], i == selectedOption);
+            printMenuOption(menuOptions[i], i == selectedOption);
         }
 
         char key = _getch();

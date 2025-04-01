@@ -11,4 +11,6 @@ void printLogo(const std::string& filename);
 
 int getConsoleWidth();
 
+void exitMessage();
+
 void centerText(std::string text);

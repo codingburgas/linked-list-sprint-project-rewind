@@ -4,6 +4,6 @@
 #include "./mainMenu.h"
 
 int main() {
+    fullScreen();
     logInScreen();
-    ShowMainMenu();
 }

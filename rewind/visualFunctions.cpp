@@ -51,3 +51,11 @@ void centerText(std::string text) {
 
     std::cout << std::string(paddingLeft, ' ') << text << std::endl;
 }
+
+void exitMessage() {
+    clearScreen();
+    paddingUp(2);
+    centerText("Thank you for using the program!");
+    paddingUp(2);
+    system("pause >nul");
+}
