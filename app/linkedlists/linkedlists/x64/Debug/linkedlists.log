@@ -1,3 +1,0 @@
-﻿  visualFunctions.cpp
-C:\Users\sunbe\Desktop\asd\linked-list-sprint-project-rewind\app\linkedlists\linkedlists\visualFunctions.cpp(42,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  linkedlists.vcxproj -> C:\Users\sunbe\Desktop\asd\linked-list-sprint-project-rewind\app\linkedlists\x64\Debug\linkedlists.exe
