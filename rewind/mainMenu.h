@@ -1,5 +1,9 @@
 #pragma once
 
-void printMenuOption(std::string option, bool isSelected);
+#include "./visualFunctions.h"
+#include "./loginScreen.h"
+#include "./eventMenu.h"
+#include "./reportsMenu.h"
+#include "./pch.h"
 
-void showMainMenu();
+void showMainMenu(std::string username);

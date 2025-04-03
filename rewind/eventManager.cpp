@@ -1,12 +1,7 @@
-#include "./pch.h"
 #include "./eventManager.h"
-#include <vector>
-#include <iostream>
 
-std::vector<Event> events;
-
-void AddEvent() {
-    Event newEvent;
+void addEvent() {
+    /*Event newEvent;
 
     std::cout << "Enter Event Date: ";
     std::getline(std::cin, newEvent.date);
@@ -28,11 +23,11 @@ void AddEvent() {
 
     events.push_back(newEvent);
     std::cout << "\nEvent added successfully!\n";
-    system("pause");
+    system("pause");*/
 }
 
-void EditEvent() {
-    std::string title;
+void editEvent() {
+    /*std::string title;
     std::cout << "Enter event title to edit: ";
     std::getline(std::cin, title);
 
@@ -72,11 +67,11 @@ void EditEvent() {
         }
     }
     std::cout << "Event not found!\n";
-    system("pause");
+    system("pause");*/
 }
 
-void DeleteEvent() {
-    std::string title;
+void deleteEvent() {
+    /*std::string title;
     std::cout << "Enter event title to delete: ";
     std::getline(std::cin, title);
 
@@ -93,21 +88,19 @@ void DeleteEvent() {
         }
     }
     std::cout << "Event not found!\n";
-    system("pause");
+    system("pause");*/
 }
 
-void PrintEventDetails(const Event& event) {
-    std::cout << "----------------------------------------\n";
+void printEventDetails() {
+    /*std::cout << "----------------------------------------\n";
     std::cout << "Date: " << event.date << "\n";
     std::cout << "Title: " << event.title << "\n";
     std::cout << "Theme: " << event.theme << "\n";
     std::cout << "Location: " << event.location << "\n";
     std::cout << "Participants: " << event.participants << "\n";
-    std::cout << "Result: " << event.result << "\n";
+    std::cout << "Result: " << event.result << "\n";*/
 }
 
-void PrintAllEvents(const std::vector<Event>& events) {
-    for (const auto& event : events) {
-        PrintEventDetails(event);
-    }
+void printAllEvents() {
+
 }

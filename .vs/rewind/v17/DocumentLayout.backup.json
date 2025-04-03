@@ -1,58 +1,94 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\",
+  "WorkspaceRootPath": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\listFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\listFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\listFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\listFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\eventManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\eventManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\eventMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\eventMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\loginScreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\loginScreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\mainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\mainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\visualFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\userManagement.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\userManagement.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\visualFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\loginValidation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\loginValidation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\loginValidation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\userManagement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\userManagement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\eventMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\eventMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\loginScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\visualFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\reportsMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\reportsMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\reportsManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\reportsManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\mainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\mainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\loginScreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\loginScreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\loginScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\loginScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\loginValidation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\loginValidation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\loginValidation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\eventManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\eventManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\visualFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\userManagement.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\userManagement.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\userManagement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\userManagement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,93 +98,145 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\main.cpp",
-              "RelativeDocumentMoniker": "rewind\\main.cpp",
-              "ToolTip": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\main.cpp",
-              "RelativeToolTip": "rewind\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "listFunctions.cpp",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\listFunctions.cpp",
+              "RelativeDocumentMoniker": "rewind\\listFunctions.cpp",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\listFunctions.cpp",
+              "RelativeToolTip": "rewind\\listFunctions.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-01T09:34:54.221Z",
+              "WhenOpened": "2025-04-03T09:30:31.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "listFunctions.h",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\listFunctions.h",
+              "RelativeDocumentMoniker": "rewind\\listFunctions.h",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\listFunctions.h",
+              "RelativeToolTip": "rewind\\listFunctions.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-03T09:30:22.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "reportsMenu.cpp",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\reportsMenu.cpp",
+              "RelativeDocumentMoniker": "rewind\\reportsMenu.cpp",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\reportsMenu.cpp",
+              "RelativeToolTip": "rewind\\reportsMenu.cpp",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAABkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-03T09:14:29.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "eventMenu.cpp",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\eventMenu.cpp",
+              "RelativeDocumentMoniker": "rewind\\eventMenu.cpp",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\eventMenu.cpp",
+              "RelativeToolTip": "rewind\\eventMenu.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-03T08:59:59.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "reportsManager.cpp",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\reportsManager.cpp",
+              "RelativeDocumentMoniker": "rewind\\reportsManager.cpp",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\reportsManager.cpp",
+              "RelativeToolTip": "rewind\\reportsManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-03T08:59:25.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "eventMenu.h",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\eventMenu.h",
+              "RelativeDocumentMoniker": "rewind\\eventMenu.h",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\eventMenu.h",
+              "RelativeToolTip": "rewind\\eventMenu.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-03T08:57:42.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "eventManager.cpp",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\eventManager.cpp",
+              "RelativeDocumentMoniker": "rewind\\eventManager.cpp",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\eventManager.cpp",
+              "RelativeToolTip": "rewind\\eventManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-03T08:57:01.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "mainMenu.h",
-              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\mainMenu.h",
-              "RelativeDocumentMoniker": "rewind\\mainMenu.h",
-              "ToolTip": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\mainMenu.h",
-              "RelativeToolTip": "rewind\\mainMenu.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-01T09:34:47.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "mainMenu.cpp",
-              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\mainMenu.cpp",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\mainMenu.cpp",
               "RelativeDocumentMoniker": "rewind\\mainMenu.cpp",
-              "ToolTip": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\mainMenu.cpp",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\mainMenu.cpp",
               "RelativeToolTip": "rewind\\mainMenu.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADEAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-01T09:34:34.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "visualFunctions.h",
-              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.h",
-              "RelativeDocumentMoniker": "rewind\\visualFunctions.h",
-              "ToolTip": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.h",
-              "RelativeToolTip": "rewind\\visualFunctions.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-01T09:07:58.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
               "Title": "visualFunctions.cpp",
-              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.cpp",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.cpp",
               "RelativeDocumentMoniker": "rewind\\visualFunctions.cpp",
-              "ToolTip": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.cpp",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.cpp",
               "RelativeToolTip": "rewind\\visualFunctions.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADcAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-01T09:07:44.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 14,
               "Title": "button.cpp",
-              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\button.cpp",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\button.cpp",
               "RelativeDocumentMoniker": "rewind\\button.cpp",
-              "ToolTip": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\button.cpp",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\button.cpp",
               "RelativeToolTip": "rewind\\button.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-01T09:00:59.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 18,
               "Title": "button.h",
-              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\button.h",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\button.h",
               "RelativeDocumentMoniker": "rewind\\button.h",
-              "ToolTip": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\button.h",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\button.h",
               "RelativeToolTip": "rewind\\button.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -157,78 +245,142 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "userManagement.cpp",
-              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\userManagement.cpp",
-              "RelativeDocumentMoniker": "rewind\\userManagement.cpp",
-              "ToolTip": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\userManagement.cpp",
-              "RelativeToolTip": "rewind\\userManagement.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-01T09:00:06.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 20,
               "Title": "userManagement.h",
-              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\userManagement.h",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\userManagement.h",
               "RelativeDocumentMoniker": "rewind\\userManagement.h",
-              "ToolTip": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\userManagement.h",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\userManagement.h",
               "RelativeToolTip": "rewind\\userManagement.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-01T08:59:19.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T08:59:19.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "loginValidation.cpp",
-              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\loginValidation.cpp",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\loginValidation.cpp",
               "RelativeDocumentMoniker": "rewind\\loginValidation.cpp",
-              "ToolTip": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\loginValidation.cpp",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\loginValidation.cpp",
               "RelativeToolTip": "rewind\\loginValidation.cpp",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAAAE4AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-01T08:58:43.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "loginValidation.h",
-              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\loginValidation.h",
-              "RelativeDocumentMoniker": "rewind\\loginValidation.h",
-              "ToolTip": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\loginValidation.h",
-              "RelativeToolTip": "rewind\\loginValidation.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "loginScreen.h",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\loginScreen.h",
+              "RelativeDocumentMoniker": "rewind\\loginScreen.h",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\loginScreen.h",
+              "RelativeToolTip": "rewind\\loginScreen.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-01T08:58:13.288Z"
+              "WhenOpened": "2025-04-01T08:56:50.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "loginScreen.cpp",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\loginScreen.cpp",
+              "RelativeDocumentMoniker": "rewind\\loginScreen.cpp",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\loginScreen.cpp",
+              "RelativeToolTip": "rewind\\loginScreen.cpp",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAcwJgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-01T08:56:38.147Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "loginScreen.h",
-              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\loginScreen.h",
-              "RelativeDocumentMoniker": "rewind\\loginScreen.h",
-              "ToolTip": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\loginScreen.h",
-              "RelativeToolTip": "rewind\\loginScreen.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "mainMenu.h",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\mainMenu.h",
+              "RelativeDocumentMoniker": "rewind\\mainMenu.h",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\mainMenu.h",
+              "RelativeToolTip": "rewind\\mainMenu.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-01T08:56:50.288Z"
+              "WhenOpened": "2025-04-01T09:34:47.382Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "loginScreen.cpp",
-              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\loginScreen.cpp",
-              "RelativeDocumentMoniker": "rewind\\loginScreen.cpp",
-              "ToolTip": "C:\\Users\\sunbe\\Desktop\\lina\\linked-list-sprint-project-rewind\\rewind\\loginScreen.cpp",
-              "RelativeToolTip": "rewind\\loginScreen.cpp",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAANMAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\main.cpp",
+              "RelativeDocumentMoniker": "rewind\\main.cpp",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\main.cpp",
+              "RelativeToolTip": "rewind\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-01T08:56:38.147Z",
+              "WhenOpened": "2025-04-01T09:34:54.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "eventManager.h",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\eventManager.h",
+              "RelativeDocumentMoniker": "rewind\\eventManager.h",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\eventManager.h",
+              "RelativeToolTip": "rewind\\eventManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-03T08:57:22.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "pch.h",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\pch.h",
+              "RelativeDocumentMoniker": "rewind\\pch.h",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\pch.h",
+              "RelativeToolTip": "rewind\\pch.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-03T09:12:34.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "userManagement.cpp",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\userManagement.cpp",
+              "RelativeDocumentMoniker": "rewind\\userManagement.cpp",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\userManagement.cpp",
+              "RelativeToolTip": "rewind\\userManagement.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-01T09:00:06.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "visualFunctions.h",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.h",
+              "RelativeDocumentMoniker": "rewind\\visualFunctions.h",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.h",
+              "RelativeToolTip": "rewind\\visualFunctions.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-01T09:07:58.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "loginValidation.h",
+              "DocumentMoniker": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\loginValidation.h",
+              "RelativeDocumentMoniker": "rewind\\loginValidation.h",
+              "ToolTip": "C:\\Users\\sunbe\\Desktop\\proekt\\linked-list-sprint-project-rewind\\rewind\\loginValidation.h",
+              "RelativeToolTip": "rewind\\loginValidation.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-01T08:58:13.288Z",
               "EditorCaption": ""
             }
           ]

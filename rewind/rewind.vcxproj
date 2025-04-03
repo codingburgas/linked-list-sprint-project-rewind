@@ -130,6 +130,7 @@
     <ClCompile Include="button.cpp" />
     <ClCompile Include="eventManager.cpp" />
     <ClCompile Include="eventMenu.cpp" />
+    <ClCompile Include="listFunctions.cpp" />
     <ClCompile Include="loginScreen.cpp" />
     <ClCompile Include="loginValidation.cpp" />
     <ClCompile Include="main.cpp" />
@@ -143,6 +144,7 @@
     <ClInclude Include="button.h" />
     <ClInclude Include="eventManager.h" />
     <ClInclude Include="eventMenu.h" />
+    <ClInclude Include="listFunctions.h" />
     <ClInclude Include="loginScreen.h" />
     <ClInclude Include="loginValidation.h" />
     <ClInclude Include="mainMenu.h" />

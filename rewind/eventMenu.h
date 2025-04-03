@@ -1,4 +1,8 @@
 #pragma once
 
-void ShowEventsMenu();
-void PrintEventsMenuOption(std::string option, bool isSelected);
+#include "pch.h"
+#include "visualFunctions.h"
+#include "eventManager.h"
+#include "button.h"
+
+void showEventsMenu();

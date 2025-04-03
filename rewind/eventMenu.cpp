@@ -1,32 +1,6 @@
-#include "./pch.h"
 #include "./eventMenu.h"
-#include "./visualFunctions.h"
-#include "./eventManager.h"
 
-void PrintEventsMenuOption(std::string option, bool isSelected) {
-    if (isSelected) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 11);
-
-    std::cout << std::string((getConsoleWidth() - 38) / 2, ' ') << char(201);
-    for (int i = 0; i < 36; i++) std::cout << char(205);
-    std::cout << char(187) << std::endl;
-
-    std::cout << std::string((getConsoleWidth() - 38) / 2, ' ') << char(186)
-        << std::string(36, ' ') << char(186) << std::endl;
-
-    std::cout << std::string((getConsoleWidth() - 38) / 2, ' ') << char(186)
-        << option << char(186) << std::endl;
-
-    std::cout << std::string((getConsoleWidth() - 38) / 2, ' ') << char(186)
-        << std::string(36, ' ') << char(186) << std::endl;
-
-    std::cout << std::string((getConsoleWidth() - 38) / 2, ' ') << char(200);
-    for (int i = 0; i < 36; i++) std::cout << char(205);
-    std::cout << char(188) << "\n\n";
-
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
-}
-
-void ShowEventsMenu() {
+void showEventsMenu() {
     clearScreen();
 
     bool selecting = true;
@@ -42,10 +16,10 @@ void ShowEventsMenu() {
     while (selecting) {
         clearScreen();
 
-        printLogo("eventsLogo.txt");
+        //printLogo("eventsLogo.txt");
 
         for (int i = 0; i < 4; i++) {
-            PrintEventsMenuOption(eventsMenuOptions[i], i == selectedOption);
+            printBoxA(eventsMenuOptions[i], i == selectedOption, 38);
         }
 
         char key = _getch();
@@ -59,13 +33,13 @@ void ShowEventsMenu() {
         else if (key == 13) {
             clearScreen();
             if (selectedOption == 0) {
-                AddEvent();
+                //AddEvent();
             }
             else if (selectedOption == 1) {
-                EditEvent();
+                //EditEvent();
             }
             else if (selectedOption == 2) {
-                DeleteEvent();
+                //DeleteEvent();
             }
             else if (selectedOption == 3) {
                 selecting = false;

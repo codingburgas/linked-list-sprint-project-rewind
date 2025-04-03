@@ -150,7 +150,7 @@ void logIn() {
                 if (selectedOption == 3) return;
                 if (findExistingUser(userPass, userName) && (selectedOption == 0 || selectedOption == 2)) {
                     typing = false;
-                    showMainMenu();
+                    showMainMenu(userName);
                     return;
                 }
             }
