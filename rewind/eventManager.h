@@ -1,5 +1,6 @@
 #pragma once
-#include "./pch.h"
+#include <string>
+#include <vector>
 
 struct Event {
     std::string date;
@@ -10,8 +11,11 @@ struct Event {
     std::string result;
 };
 
-void addEvent();
-void editEvent();
-void deleteEvent();
-void printEventDetails();
-void printAllEvents();
+void AddEvent();
+void EditEvent();
+void DeleteEvent();
+void PrintEventDetails(const Event& event);
+void PrintAllEvents(const std::vector<Event>& events);
+
+void loadEvents();
+void initializeEventSystem();

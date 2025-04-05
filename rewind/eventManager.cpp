@@ -1,33 +1,68 @@
+#include "./pch.h"
 #include "./eventManager.h"
+#include "./eventStorage.h"
+#include "./visualFunctions.h"
+#include <vector>
+#include <iostream>
+#include <conio.h>
 
-void addEvent() {
-    /*Event newEvent;
+std::vector<Event> events;
 
-    std::cout << "Enter Event Date: ";
-    std::getline(std::cin, newEvent.date);
+const std::string eventsFilePath = "..\\rewind\\events.txt";
+
+void AddEvent() {
+    Event newEvent;
+    do {
+        std::cout << "Enter Event Date: ";
+        std::getline(std::cin, newEvent.date);
+        if (newEvent.date.empty())
+            std::cout << "Date cannot be empty!\n";
+    } while (newEvent.date.empty());
 
     do {
         std::cout << "Enter Event Title: ";
         std::getline(std::cin, newEvent.title);
-        if (newEvent.title.empty()) std::cout << "Title cannot be empty!\n";
+        if (newEvent.title.empty())
+            std::cout << "Title cannot be empty!\n";
     } while (newEvent.title.empty());
 
-    std::cout << "Enter Event Theme: ";
-    std::getline(std::cin, newEvent.theme);
-    std::cout << "Enter Event Location: ";
-    std::getline(std::cin, newEvent.location);
-    std::cout << "Enter Participants: ";
-    std::getline(std::cin, newEvent.participants);
-    std::cout << "Enter Result: ";
-    std::getline(std::cin, newEvent.result);
+    do {
+        std::cout << "Enter Event Theme: ";
+        std::getline(std::cin, newEvent.theme);
+        if (newEvent.theme.empty())
+            std::cout << "Theme cannot be empty!\n";
+    } while (newEvent.theme.empty());
+
+    do {
+        std::cout << "Enter Event Location: ";
+        std::getline(std::cin, newEvent.location);
+        if (newEvent.location.empty())
+            std::cout << "Location cannot be empty!\n";
+    } while (newEvent.location.empty());
+
+    do {
+        std::cout << "Enter Participants: ";
+        std::getline(std::cin, newEvent.participants);
+        if (newEvent.participants.empty())
+            std::cout << "Participants cannot be empty!\n";
+    } while (newEvent.participants.empty());
+
+    do {
+        std::cout << "Enter Result: ";
+        std::getline(std::cin, newEvent.result);
+        if (newEvent.result.empty())
+            std::cout << "Result cannot be empty!\n";
+    } while (newEvent.result.empty());
 
     events.push_back(newEvent);
+    saveEventsToFile(events, eventsFilePath);
+
     std::cout << "\nEvent added successfully!\n";
-    system("pause");*/
+    system("pause");
 }
 
-void editEvent() {
-    /*std::string title;
+void EditEvent() {
+    std::string title;
     std::cout << "Enter event title to edit: ";
     std::getline(std::cin, title);
 
@@ -61,17 +96,19 @@ void editEvent() {
             std::getline(std::cin, temp);
             if (!temp.empty()) event.result = temp;
 
+            saveEventsToFile(events, eventsFilePath);
+
             std::cout << "Event updated successfully!\n";
             system("pause");
             return;
         }
     }
     std::cout << "Event not found!\n";
-    system("pause");*/
+    system("pause");
 }
 
-void deleteEvent() {
-    /*std::string title;
+void DeleteEvent() {
+    std::string title;
     std::cout << "Enter event title to delete: ";
     std::getline(std::cin, title);
 
@@ -81,26 +118,39 @@ void deleteEvent() {
             char confirm = _getch();
             if (confirm == 'y' || confirm == 'Y') {
                 events.erase(it);
-                std::cout << "Event deleted!\n";
+                saveEventsToFile(events, eventsFilePath);
+                std::cout << "\nEvent deleted!\n";
             }
             system("pause");
             return;
         }
     }
     std::cout << "Event not found!\n";
-    system("pause");*/
+    system("pause");
 }
 
-void printEventDetails() {
-    /*std::cout << "----------------------------------------\n";
-    std::cout << "Date: " << event.date << "\n";
-    std::cout << "Title: " << event.title << "\n";
-    std::cout << "Theme: " << event.theme << "\n";
-    std::cout << "Location: " << event.location << "\n";
-    std::cout << "Participants: " << event.participants << "\n";
-    std::cout << "Result: " << event.result << "\n";*/
+void PrintEventDetails(const Event& event) {
+    centerText("----------------------------------------");
+    centerText("Date: " + event.date);
+    centerText("Title: " + event.title);
+    centerText("Theme: " + event.theme);
+    centerText("Location: " + event.location);
+    centerText("Participants: " + event.participants);
+    centerText("Result: " + event.result);
 }
 
-void printAllEvents() {
+void PrintAllEvents(const std::vector<Event>& events) {
+    for (const auto& event : events) {
+        PrintEventDetails(event);
+    }
+}
 
+void loadEvents() {
+    if (!loadEventsFromFile(events, eventsFilePath)) {
+        std::cout << "No events found, starting fresh." << std::endl;
+    }
+}
+
+void initializeEventSystem() {
+    loadEvents();
 }

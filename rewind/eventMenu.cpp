@@ -16,7 +16,7 @@ void showEventsMenu() {
     while (selecting) {
         clearScreen();
 
-        //printLogo("eventsLogo.txt");
+        printLogo("eventsLogo.txt");
 
         for (int i = 0; i < 4; i++) {
             printBoxA(eventsMenuOptions[i], i == selectedOption, 38);
@@ -33,13 +33,13 @@ void showEventsMenu() {
         else if (key == 13) {
             clearScreen();
             if (selectedOption == 0) {
-                //AddEvent();
+                AddEvent();
             }
             else if (selectedOption == 1) {
-                //EditEvent();
+                EditEvent();
             }
             else if (selectedOption == 2) {
-                //DeleteEvent();
+                DeleteEvent();
             }
             else if (selectedOption == 3) {
                 selecting = false;

@@ -39,7 +39,7 @@ void showMainMenu(std::string username) {
         }
         else if (key == 13) {
             if (selectedOption == 0) {
-                //ShowEventsMenu();
+                showEventsMenu();
             }
             else if (selectedOption == 1) {
                 ShowReportsMenu();
