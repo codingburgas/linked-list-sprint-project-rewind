@@ -1,6 +1,9 @@
 #include "./eventMenu.h"
+#include "./eventManager.h"
 
-void showEventsMenu() {
+extern Event* head;
+
+void ShowEventsMenu() {
     clearScreen();
 
     bool selecting = true;

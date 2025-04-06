@@ -2,10 +2,8 @@
 #include "./reportsManager.h"
 #include "./eventManager.h"
 #include "./visualFunctions.h"
-#include <conio.h>
-#include <iostream>
 
-extern std::vector<Event> events;
+extern Event* head;
 
 void PrintReportHeader(const std::string& title) {
     clearScreen();
@@ -28,161 +26,87 @@ void PrintReportFooter() {
     _getch();
 }
 
-
-void ShowEventsByDate() {
-    PrintReportHeader("EVENTS BY DATE");
+void ShowEventsByField(const std::string& prompt, const std::string& fieldName) {
+    PrintReportHeader("EVENTS BY " + fieldName);
 
     std::string searchQuery;
-    centerText("Enter date (or part of it) to search:");
+    centerText(prompt);
     std::cout << std::string((getConsoleWidth() - 1) / 2, ' ') << " > ";
     std::getline(std::cin, searchQuery);
 
     if (searchQuery.empty()) {
         centerText("Search cancelled. Returning to menu...");
-        system("pause");
+        centerText("Press any key to continue...");
+        _getch();
         return;
     }
 
     bool found = false;
-    for (const auto& event : events) {
-        if (event.date.find(searchQuery) != std::string::npos) {
-            PrintEventDetails(event);
+    Event* current = head;
+
+    while (current != nullptr) {
+        std::string fieldValue;
+
+        if (fieldName == "DATE") {
+            fieldValue = current->date;
+            std::cout << "Checking DATE: " << fieldValue << std::endl;
+        }
+        else if (fieldName == "TITLE") {
+            fieldValue = current->title;
+            std::cout << "Checking TITLE: " << fieldValue << std::endl;
+        }
+        else if (fieldName == "THEME") {
+            fieldValue = current->theme;
+            std::cout << "Checking THEME: " << fieldValue << std::endl;
+        }
+        else if (fieldName == "LOCATION") {
+            fieldValue = current->location;
+            std::cout << "Checking LOCATION: " << fieldValue << std::endl;
+        }
+        else if (fieldName == "PARTICIPANTS") {
+            fieldValue = current->participants;
+            std::cout << "Checking PARTICIPANTS: " << fieldValue << std::endl;
+        }
+        else if (fieldName == "RESULT") {
+            fieldValue = current->result;
+            std::cout << "Checking RESULT: " << fieldValue << std::endl;
+        }
+
+        if (fieldValue.find(searchQuery) != std::string::npos) {
+            PrintEventDetails(*current);
             found = true;
         }
+
+        current = current->next;
     }
 
-    if (!found) centerText("No events found for this date.");
+    if (!found) centerText("No events found matching this " + fieldName + ".");
+
     PrintReportFooter();
+}
+
+void ShowEventsByDate() {
+    ShowEventsByField("Enter date (or part of it) to search:", "DATE");
 }
 
 void ShowEventsByTitle() {
-    PrintReportHeader("EVENTS BY TITLE");
-
-    std::string searchQuery;
-    centerText("Enter title (or part of it) to search:");
-    std::cout << std::string((getConsoleWidth() - 1) / 2, ' ') << " > ";
-    std::getline(std::cin, searchQuery);
-
-    if (searchQuery.empty()) {
-        centerText("Search cancelled. Returning to menu...");
-        system("pause");
-        return;
-    }
-
-    bool found = false;
-    for (const auto& event : events) {
-        if (event.title.find(searchQuery) != std::string::npos) {
-            PrintEventDetails(event);
-            found = true;
-        }
-    }
-
-    if (!found) centerText("No events found for this title.");
-    PrintReportFooter();
+    ShowEventsByField("Enter title (or part of it) to search:", "TITLE");
 }
 
 void ShowEventsByTheme() {
-    PrintReportHeader("EVENTS BY THEME");
-
-    std::string searchQuery;
-    centerText("Enter theme (or part of it) to search:");
-    std::cout << std::string((getConsoleWidth() - 1) / 2, ' ') << " > ";
-    std::getline(std::cin, searchQuery);
-
-    if (searchQuery.empty()) {
-        centerText("Search cancelled. Returning to menu...");
-        system("pause");
-        return;
-    }
-
-    bool found = false;
-    for (const auto& event : events) {
-        if (event.theme.find(searchQuery) != std::string::npos) {
-            PrintEventDetails(event);
-            found = true;
-        }
-    }
-
-    if (!found) centerText("No events found for this theme.");
-    PrintReportFooter();
+    ShowEventsByField("Enter theme (or part of it) to search:", "THEME");
 }
 
 void ShowEventsByLocation() {
-    PrintReportHeader("EVENTS BY LOCATION");
-
-    std::string searchQuery;
-    centerText("Enter location (or part of it) to search:");
-    std::cout << std::string((getConsoleWidth() - 1) / 2, ' ') << " > ";
-    std::getline(std::cin, searchQuery);
-
-    if (searchQuery.empty()) {
-        centerText("Search cancelled. Returning to menu...");
-        system("pause");
-        return;
-    }
-
-    bool found = false;
-    for (const auto& event : events) {
-        if (event.location.find(searchQuery) != std::string::npos) {
-            PrintEventDetails(event);
-            found = true;
-        }
-    }
-
-    if (!found) centerText("No events found for this location.");
-    PrintReportFooter();
+    ShowEventsByField("Enter location (or part of it) to search:", "LOCATION");
 }
 
 void ShowEventsByParticipants() {
-    PrintReportHeader("EVENTS BY PARTICIPANTS");
-
-    std::string searchQuery;
-    centerText("Enter participants (or part of it) to search:");
-    std::cout << std::string((getConsoleWidth() - 1) / 2, ' ') << " > ";
-    std::getline(std::cin, searchQuery);
-
-    if (searchQuery.empty()) {
-        centerText("Search cancelled. Returning to menu...");
-        system("pause");
-        return;
-    }
-
-    bool found = false;
-    for (const auto& event : events) {
-        if (event.participants.find(searchQuery) != std::string::npos) {
-            PrintEventDetails(event);
-            found = true;
-        }
-    }
-
-    if (!found) centerText("No events found for these participants.");
-    PrintReportFooter();
+    ShowEventsByField("Enter participants (or part of it) to search:", "PARTICIPANTS");
 }
 
 void ShowEventsByResult() {
-    PrintReportHeader("EVENTS BY RESULT");
-
-    std::string searchQuery;
-    centerText("Enter result (or part of it) to search:");
-    std::cout << std::string((getConsoleWidth() - 1) / 2, ' ') << " > ";
-    std::getline(std::cin, searchQuery);
-
-    if (searchQuery.empty()) {
-        centerText("Search cancelled. Returning to menu...");
-        system("pause");
-        return;
-    }
-
-    bool found = false;
-    for (const auto& event : events) {
-        if (event.result.find(searchQuery) != std::string::npos) {
-            PrintEventDetails(event);
-            found = true;
-        }
-    }
-
-    if (!found) centerText("No events found for this result.");
-    PrintReportFooter();
+    ShowEventsByField("Enter result (or part of it) to search:", "RESULT");
 }
 
 void SearchEvent() {
@@ -194,20 +118,24 @@ void SearchEvent() {
     std::getline(std::cin, query);
 
     bool found = false;
-    for (const auto& event : events) {
-        if (query.empty() ||
-            event.date.find(query) != std::string::npos ||
-            event.title.find(query) != std::string::npos ||
-            event.theme.find(query) != std::string::npos ||
-            event.location.find(query) != std::string::npos ||
-            event.participants.find(query) != std::string::npos ||
-            event.result.find(query) != std::string::npos) {
+    Event* current = head;
 
-            PrintEventDetails(event);
+    while (current != nullptr) {
+        if (query.empty() ||
+            current->date.find(query) != std::string::npos ||
+            current->title.find(query) != std::string::npos ||
+            current->theme.find(query) != std::string::npos ||
+            current->location.find(query) != std::string::npos ||
+            current->participants.find(query) != std::string::npos ||
+            current->result.find(query) != std::string::npos) {
+
+            PrintEventDetails(*current);
             found = true;
         }
+        current = current->next;
     }
 
     if (!found) centerText("No events found matching that keyword.");
+
     PrintReportFooter();
 }

@@ -4,7 +4,7 @@
 #include "./reportsManager.h"
 #include "./eventManager.h"
 
-extern std::vector<Event> events;
+extern Event* head;
 
 void PrintReportsMenuOption(std::string option, bool isSelected) {
     if (isSelected) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 11);

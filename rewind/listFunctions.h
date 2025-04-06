@@ -4,14 +4,14 @@
 #include "visualFunctions.h"
 
 struct EVENT {
-	std::string title;
-	std::string date;
-	std::string theme;
-	std::string location;
-	std::string participants;
-	bool winForBulgaria;
+    std::string title;
+    std::string date;
+    std::string theme;
+    std::string location;
+    std::string participants;
+    bool winForBulgaria;
 
-	EVENT* next;
+    EVENT* next;
 };
 
 void append(EVENT** head, const EVENT& newEvent);

@@ -1,6 +1,5 @@
 #pragma once
 #include <string>
-#include <vector>
 
 struct Event {
     std::string date;
@@ -9,13 +8,14 @@ struct Event {
     std::string location;
     std::string participants;
     std::string result;
+    Event* next;
 };
 
 void AddEvent();
 void EditEvent();
 void DeleteEvent();
 void PrintEventDetails(const Event& event);
-void PrintAllEvents(const std::vector<Event>& events);
-
+void PrintAllEvents();
 void loadEvents();
 void initializeEventSystem();
+Event* createEventNode(const Event& newEvent);

@@ -70,7 +70,7 @@ void removeAt(EVENT** head, int index) {
         temp = temp->next;
     }
 
-    if (!temp->next) return;  // If index is out of bounds
+    if (!temp->next) return;
 
     EVENT* toDelete = temp->next;
     temp->next = temp->next->next;
@@ -80,7 +80,6 @@ void removeAt(EVENT** head, int index) {
 void printList(EVENT* head) {
     if (!head) return;
 
-    //Work in progress;
 
     printList(head->next);
 }

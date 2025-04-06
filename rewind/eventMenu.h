@@ -5,4 +5,4 @@
 #include "eventManager.h"
 #include "button.h"
 
-void showEventsMenu();
+void ShowEventsMenu();

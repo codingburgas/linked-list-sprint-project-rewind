@@ -3,16 +3,18 @@
 #include <sstream>
 #include <iostream>
 
-void saveEventsToFile(const std::vector<Event>& events, const std::string& fileName) {
+void saveEventsToFile(Event* head, const std::string& fileName) {
     std::ofstream outFile(fileName);
     if (outFile.is_open()) {
-        for (const auto& event : events) {
-            outFile << event.date << ","
-                << event.title << ","
-                << event.theme << ","
-                << event.location << ","
-                << event.participants << ","
-                << event.result << "\n";
+        Event* current = head;
+        while (current != nullptr) {
+            outFile << current->date << ","
+                << current->title << ","
+                << current->theme << ","
+                << current->location << ","
+                << current->participants << ","
+                << current->result << "\n";
+            current = current->next;
         }
         outFile.close();
         std::cout << "Events saved successfully to " << fileName << std::endl;
@@ -22,21 +24,39 @@ void saveEventsToFile(const std::vector<Event>& events, const std::string& fileN
     }
 }
 
-bool loadEventsFromFile(std::vector<Event>& events, const std::string& fileName) {
+bool loadEventsFromFile(Event*& head, const std::string& fileName) {
     std::ifstream inFile(fileName);
     if (inFile.is_open()) {
         std::string line;
+        Event* tempHead = nullptr;
+
         while (std::getline(inFile, line)) {
             std::istringstream ss(line);
-            Event event;
-            std::getline(ss, event.date, ',');
-            std::getline(ss, event.title, ',');
-            std::getline(ss, event.theme, ',');
-            std::getline(ss, event.location, ',');
-            std::getline(ss, event.participants, ',');
-            std::getline(ss, event.result);
-            events.push_back(event);
+            Event newEvent;
+            std::getline(ss, newEvent.date, ',');
+            std::getline(ss, newEvent.title, ',');
+            std::getline(ss, newEvent.theme, ',');
+            std::getline(ss, newEvent.location, ',');
+            std::getline(ss, newEvent.participants, ',');
+            std::getline(ss, newEvent.result);
+
+            Event* newNode = createEventNode(newEvent);
+
+            if (tempHead == nullptr || tempHead->date > newEvent.date) {
+                newNode->next = tempHead;
+                tempHead = newNode;
+            }
+            else {
+                Event* current = tempHead;
+                while (current->next != nullptr && current->next->date < newEvent.date) {
+                    current = current->next;
+                }
+                newNode->next = current->next;
+                current->next = newNode;
+            }
         }
+
+        head = tempHead;
         inFile.close();
         return true;
     }

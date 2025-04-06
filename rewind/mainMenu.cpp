@@ -23,7 +23,7 @@ void showMainMenu(std::string username) {
             printBoxA(menuOptions[i], i == selectedOption, 38);
         }
 
-        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 2);
+        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 3);
         std::cout << std::endl;
         centerText("Logged in as: " + username);
         std::cout << std::endl;
@@ -39,7 +39,7 @@ void showMainMenu(std::string username) {
         }
         else if (key == 13) {
             if (selectedOption == 0) {
-                showEventsMenu();
+                ShowEventsMenu();
             }
             else if (selectedOption == 1) {
                 ShowReportsMenu();

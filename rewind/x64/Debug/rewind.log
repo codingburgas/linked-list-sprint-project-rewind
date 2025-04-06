@@ -1,2 +1,22 @@
-﻿  mainMenu.cpp
-  rewind.vcxproj -> C:\Users\user\OneDrive\Desktop\linked-list-sprint-project-rewind\x64\Debug\rewind.exe
+﻿  button.cpp
+  eventManager.cpp
+  eventMenu.cpp
+  eventStorage.cpp
+  listFunctions.cpp
+  loginScreen.cpp
+C:\Users\Pepsi\Documents\rewind\linked-list-sprint-project-rewind\rewind\loginScreen.cpp(49,85): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Pepsi\Documents\rewind\linked-list-sprint-project-rewind\rewind\loginScreen.cpp(65,33): warning C4309: '=': truncation of constant value
+C:\Users\Pepsi\Documents\rewind\linked-list-sprint-project-rewind\rewind\loginScreen.cpp(69,33): warning C4309: '=': truncation of constant value
+C:\Users\Pepsi\Documents\rewind\linked-list-sprint-project-rewind\rewind\loginScreen.cpp(130,85): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Pepsi\Documents\rewind\linked-list-sprint-project-rewind\rewind\loginScreen.cpp(142,33): warning C4309: '=': truncation of constant value
+C:\Users\Pepsi\Documents\rewind\linked-list-sprint-project-rewind\rewind\loginScreen.cpp(146,33): warning C4309: '=': truncation of constant value
+  loginValidation.cpp
+  main.cpp
+  mainMenu.cpp
+  reportsManager.cpp
+  reportsMenu.cpp
+  userManagement.cpp
+  visualFunctions.cpp
+C:\Users\Pepsi\Documents\rewind\linked-list-sprint-project-rewind\rewind\visualFunctions.cpp(49,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  rewind.vcxproj -> C:\Users\Pepsi\Documents\rewind\linked-list-sprint-project-rewind\x64\Debug\rewind.exe
