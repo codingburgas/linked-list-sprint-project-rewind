@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\visualFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\userManagement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\userManagement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\reportsMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\reportsMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\reportsMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -43,16 +39,32 @@
       "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\eventStorage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\visualFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\userManagement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\userManagement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\eventMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\eventManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\eventManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\eventManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -61,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\userManagement.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\userManagement.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\reportsMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\reportsMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\reportsManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -97,14 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\eventMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\eventManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C840403F-645F-48CA-B9E8-44F87D2DC989}|rewind\\rewind.vcxproj|solutionrelative:rewind\\button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -114,11 +114,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "loginValidation.cpp",
+              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\loginValidation.cpp",
+              "RelativeDocumentMoniker": "rewind\\loginValidation.cpp",
+              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\loginValidation.cpp",
+              "RelativeToolTip": "rewind\\loginValidation.cpp",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-01T08:58:43.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\main.cpp",
               "RelativeDocumentMoniker": "rewind\\main.cpp",
@@ -131,254 +144,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "loginScreen.cpp",
-              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\loginScreen.cpp",
-              "RelativeDocumentMoniker": "rewind\\loginScreen.cpp",
-              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\loginScreen.cpp",
-              "RelativeToolTip": "rewind\\loginScreen.cpp",
-              "ViewState": "AgIAAL0AAAAAAAAAAAAAANsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-01T08:56:38.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "loginValidation.cpp",
-              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\loginValidation.cpp",
-              "RelativeDocumentMoniker": "rewind\\loginValidation.cpp",
-              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\loginValidation.cpp",
-              "RelativeToolTip": "rewind\\loginValidation.cpp",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-01T08:58:43.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "mainMenu.cpp",
               "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\mainMenu.cpp",
               "RelativeDocumentMoniker": "rewind\\mainMenu.cpp",
               "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\mainMenu.cpp",
               "RelativeToolTip": "rewind\\mainMenu.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-01T09:34:34.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "reportsManager.cpp",
               "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\reportsManager.cpp",
               "RelativeDocumentMoniker": "rewind\\reportsManager.cpp",
               "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\reportsManager.cpp",
               "RelativeToolTip": "rewind\\reportsManager.cpp",
-              "ViewState": "AgIAAIEAAAAAAAAAAADwv40AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAI0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-03T08:59:25.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "reportsMenu.cpp",
               "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\reportsMenu.cpp",
               "RelativeDocumentMoniker": "rewind\\reportsMenu.cpp",
               "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\reportsMenu.cpp",
               "RelativeToolTip": "rewind\\reportsMenu.cpp",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-03T09:14:29.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "userManagement.cpp",
-              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\userManagement.cpp",
-              "RelativeDocumentMoniker": "rewind\\userManagement.cpp",
-              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\userManagement.cpp",
-              "RelativeToolTip": "rewind\\userManagement.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-01T09:00:06.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "visualFunctions.cpp",
-              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.cpp",
-              "RelativeDocumentMoniker": "rewind\\visualFunctions.cpp",
-              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.cpp",
-              "RelativeToolTip": "rewind\\visualFunctions.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-01T09:07:44.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "listFunctions.cpp",
-              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\listFunctions.cpp",
-              "RelativeDocumentMoniker": "rewind\\listFunctions.cpp",
-              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\listFunctions.cpp",
-              "RelativeToolTip": "rewind\\listFunctions.cpp",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-03T09:30:31.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "eventStorage.cpp",
-              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventStorage.cpp",
-              "RelativeDocumentMoniker": "rewind\\eventStorage.cpp",
-              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventStorage.cpp",
-              "RelativeToolTip": "rewind\\eventStorage.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-06T13:21:23.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "eventMenu.cpp",
-              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventMenu.cpp",
-              "RelativeDocumentMoniker": "rewind\\eventMenu.cpp",
-              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventMenu.cpp",
-              "RelativeToolTip": "rewind\\eventMenu.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-03T08:59:59.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "button.cpp",
-              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\button.cpp",
-              "RelativeDocumentMoniker": "rewind\\button.cpp",
-              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\button.cpp",
-              "RelativeToolTip": "rewind\\button.cpp",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-01T09:00:59.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "eventManager.cpp",
-              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventManager.cpp",
-              "RelativeDocumentMoniker": "rewind\\eventManager.cpp",
-              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventManager.cpp",
-              "RelativeToolTip": "rewind\\eventManager.cpp",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAMIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-03T08:57:01.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "userManagement.h",
-              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\userManagement.h",
-              "RelativeDocumentMoniker": "rewind\\userManagement.h",
-              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\userManagement.h",
-              "RelativeToolTip": "rewind\\userManagement.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-01T08:59:19.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "visualFunctions.h",
-              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.h",
-              "RelativeDocumentMoniker": "rewind\\visualFunctions.h",
-              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.h",
-              "RelativeToolTip": "rewind\\visualFunctions.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-01T09:07:58.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "eventStorage.h",
-              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventStorage.h",
-              "RelativeDocumentMoniker": "rewind\\eventStorage.h",
-              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventStorage.h",
-              "RelativeToolTip": "rewind\\eventStorage.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-06T13:27:58.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "loginValidation.h",
-              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\loginValidation.h",
-              "RelativeDocumentMoniker": "rewind\\loginValidation.h",
-              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\loginValidation.h",
-              "RelativeToolTip": "rewind\\loginValidation.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-01T08:58:13.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "loginScreen.h",
-              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\loginScreen.h",
-              "RelativeDocumentMoniker": "rewind\\loginScreen.h",
-              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\loginScreen.h",
-              "RelativeToolTip": "rewind\\loginScreen.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-01T08:56:50.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "listFunctions.h",
-              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\listFunctions.h",
-              "RelativeDocumentMoniker": "rewind\\listFunctions.h",
-              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\listFunctions.h",
-              "RelativeToolTip": "rewind\\listFunctions.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-03T09:30:22.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "reportsManager.h",
-              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\reportsManager.h",
-              "RelativeDocumentMoniker": "rewind\\reportsManager.h",
-              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\reportsManager.h",
-              "RelativeToolTip": "rewind\\reportsManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-06T13:29:17.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "reportsMenu.h",
               "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\reportsMenu.h",
               "RelativeDocumentMoniker": "rewind\\reportsMenu.h",
@@ -391,20 +196,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "eventManager.h",
-              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventManager.h",
-              "RelativeDocumentMoniker": "rewind\\eventManager.h",
-              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventManager.h",
-              "RelativeToolTip": "rewind\\eventManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-03T08:57:22.829Z",
+              "DocumentIndex": 6,
+              "Title": "loginScreen.cpp",
+              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\loginScreen.cpp",
+              "RelativeDocumentMoniker": "rewind\\loginScreen.cpp",
+              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\loginScreen.cpp",
+              "RelativeToolTip": "rewind\\loginScreen.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAANsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-01T08:56:38.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 7,
+              "Title": "listFunctions.cpp",
+              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\listFunctions.cpp",
+              "RelativeDocumentMoniker": "rewind\\listFunctions.cpp",
+              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\listFunctions.cpp",
+              "RelativeToolTip": "rewind\\listFunctions.cpp",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-03T09:30:31.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "eventStorage.cpp",
+              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventStorage.cpp",
+              "RelativeDocumentMoniker": "rewind\\eventStorage.cpp",
+              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventStorage.cpp",
+              "RelativeToolTip": "rewind\\eventStorage.cpp",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-06T13:21:23.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "visualFunctions.cpp",
+              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.cpp",
+              "RelativeDocumentMoniker": "rewind\\visualFunctions.cpp",
+              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.cpp",
+              "RelativeToolTip": "rewind\\visualFunctions.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-01T09:07:44.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "userManagement.cpp",
+              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\userManagement.cpp",
+              "RelativeDocumentMoniker": "rewind\\userManagement.cpp",
+              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\userManagement.cpp",
+              "RelativeToolTip": "rewind\\userManagement.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-01T09:00:06.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "eventMenu.cpp",
+              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventMenu.cpp",
+              "RelativeDocumentMoniker": "rewind\\eventMenu.cpp",
+              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventMenu.cpp",
+              "RelativeToolTip": "rewind\\eventMenu.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-03T08:59:59.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "eventManager.cpp",
+              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventManager.cpp",
+              "RelativeDocumentMoniker": "rewind\\eventManager.cpp",
+              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventManager.cpp",
+              "RelativeToolTip": "rewind\\eventManager.cpp",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAAMIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-03T08:57:01.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "button.cpp",
+              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\button.cpp",
+              "RelativeDocumentMoniker": "rewind\\button.cpp",
+              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\button.cpp",
+              "RelativeToolTip": "rewind\\button.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-01T09:00:59.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "button.h",
               "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\button.h",
               "RelativeDocumentMoniker": "rewind\\button.h",
@@ -417,7 +313,104 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "eventManager.h",
+              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventManager.h",
+              "RelativeDocumentMoniker": "rewind\\eventManager.h",
+              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventManager.h",
+              "RelativeToolTip": "rewind\\eventManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-03T08:57:22.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "userManagement.h",
+              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\userManagement.h",
+              "RelativeDocumentMoniker": "rewind\\userManagement.h",
+              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\userManagement.h",
+              "RelativeToolTip": "rewind\\userManagement.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-01T08:59:19.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "visualFunctions.h",
+              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.h",
+              "RelativeDocumentMoniker": "rewind\\visualFunctions.h",
+              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\visualFunctions.h",
+              "RelativeToolTip": "rewind\\visualFunctions.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-01T09:07:58.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "eventStorage.h",
+              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventStorage.h",
+              "RelativeDocumentMoniker": "rewind\\eventStorage.h",
+              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventStorage.h",
+              "RelativeToolTip": "rewind\\eventStorage.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-06T13:27:58.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "loginValidation.h",
+              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\loginValidation.h",
+              "RelativeDocumentMoniker": "rewind\\loginValidation.h",
+              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\loginValidation.h",
+              "RelativeToolTip": "rewind\\loginValidation.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-01T08:58:13.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "loginScreen.h",
+              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\loginScreen.h",
+              "RelativeDocumentMoniker": "rewind\\loginScreen.h",
+              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\loginScreen.h",
+              "RelativeToolTip": "rewind\\loginScreen.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-01T08:56:50.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "listFunctions.h",
+              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\listFunctions.h",
+              "RelativeDocumentMoniker": "rewind\\listFunctions.h",
+              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\listFunctions.h",
+              "RelativeToolTip": "rewind\\listFunctions.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-03T09:30:22.827Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "reportsManager.h",
+              "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\reportsManager.h",
+              "RelativeDocumentMoniker": "rewind\\reportsManager.h",
+              "ToolTip": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\reportsManager.h",
+              "RelativeToolTip": "rewind\\reportsManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-06T13:29:17.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "mainMenu.h",
               "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\mainMenu.h",
               "RelativeDocumentMoniker": "rewind\\mainMenu.h",
@@ -425,12 +418,11 @@
               "RelativeToolTip": "rewind\\mainMenu.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-01T09:34:47.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T09:34:47.382Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "pch.h",
               "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\pch.h",
               "RelativeDocumentMoniker": "rewind\\pch.h",
@@ -438,12 +430,11 @@
               "RelativeToolTip": "rewind\\pch.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-03T09:12:34.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T09:12:34.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "eventMenu.h",
               "DocumentMoniker": "C:\\Users\\Pepsi\\Documents\\rewind\\linked-list-sprint-project-rewind\\rewind\\eventMenu.h",
               "RelativeDocumentMoniker": "rewind\\eventMenu.h",
@@ -451,8 +442,7 @@
               "RelativeToolTip": "rewind\\eventMenu.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-03T08:57:42.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T08:57:42.358Z"
             }
           ]
         }
