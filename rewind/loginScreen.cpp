@@ -1,17 +1,4 @@
-#include "./logInScreen.h"
-#include "./visualFunctions.h"
-
-void printLoginInput(std::string input, bool isSelected, bool isHidden, int  inputWidth) {
-    if (isHidden) input = std::string(input.length(), '*');
-
-    if (isSelected) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 11);
-
-    std::cout << std::string((getConsoleWidth() - inputWidth - 4) / 2, ' ') << char(201) << std::string(inputWidth + 2, char(205)) << char(187) << std::endl;
-    std::cout << std::string((getConsoleWidth() - inputWidth - 4) / 2, ' ') << char(186) << ' ' << input << std::string(inputWidth + 1 - input.length(), ' ') << char(186) << std::endl;
-    std::cout << std::string((getConsoleWidth() - inputWidth - 4) / 2, ' ') << char(200) << std::string(inputWidth + 2, char(205)) << char(188) << std::endl;
-
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
-}
+#include "logInScreen.h"
 
 void signUp() {
 
@@ -36,7 +23,7 @@ void signUp() {
 
         centerText("Enter a valid username");
         paddingUp(2);
-        printLoginInput(userName, selectedOption == 0, false, 16);
+        printTextContainer(userName, selectedOption == 0, false, 16);
 
         paddingUp(3);
 
@@ -46,7 +33,7 @@ void signUp() {
         printEyePassword(selectedOption == 1, hidePass);
 
         paddingUp(1);
-        printLoginInput(userPass, selectedOption == 2, hidePass, (userPass.length() > 16) ? userPass.length() : 16);
+        printTextContainer(userPass, selectedOption == 2, hidePass, (userPass.length() > 16) ? userPass.length() : 16);
 
         if (selectedOption < 3) {
             printCriteria((selectedOption == 0) ? userName : userPass, selectedOption);
@@ -117,7 +104,7 @@ void logIn() {
 
         centerText("Enter your username");
         paddingUp(2);
-        printLoginInput(userName, selectedOption == 0, false, 16);
+        printTextContainer(userName, selectedOption == 0, false, 16);
 
         paddingUp(3);
 
@@ -127,7 +114,7 @@ void logIn() {
         printEyePassword(selectedOption == 1, hidePass);
 
         paddingUp(1);
-        printLoginInput(userPass, selectedOption == 2, hidePass, (userPass.length() > 16) ? userPass.length() : 16);
+        printTextContainer(userPass, selectedOption == 2, hidePass, (userPass.length() > 16) ? userPass.length() : 16);
 
         paddingUp(25);
         printBoxA("         Exit         ", selectedOption == 3, 24);
