@@ -1,4 +1,4 @@
-#include "./mainMenu.h"
+#include "mainMenu.h"
 
 void showMainMenu(std::string username) {
     clearScreen();
@@ -7,11 +7,11 @@ void showMainMenu(std::string username) {
 
     int selectedOption = 0;
 
-    std::string menuOptions[4] = {
-        "               Events               ",
-        "              Reports               ",
-        "              Sign Out              ",
-        "                Exit                "
+    std::string menuOptions[] = {
+        "           Manage Events            ",
+        "           Event Reports            ",
+        "             Sign Out               ",
+        "               Exit                 "
     };
 
     while (selecting) {
@@ -39,10 +39,10 @@ void showMainMenu(std::string username) {
         }
         else if (key == 13) {
             if (selectedOption == 0) {
-                ShowEventsMenu();
+                showEventsMenu(username);
             }
             else if (selectedOption == 1) {
-                ShowReportsMenu();
+                // showReportsMenu(username);
             }
             else if (selectedOption == 2) {
                 selecting = false;
