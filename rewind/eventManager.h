@@ -3,6 +3,7 @@
 #include "button.h"
 #include "visualFunctions.h"
 #include "listFunctions.h"
+#include "userManagement.h"
 
 void updateEventsFile(EVENT* head);
 void updateLinePos(std::string& currentLine, size_t& commaPos);

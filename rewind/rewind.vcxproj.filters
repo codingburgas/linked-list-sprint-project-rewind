@@ -24,9 +24,6 @@
     <ClCompile Include="mainMenu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="visualFunctions.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="eventMenu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -45,9 +42,6 @@
     <ClCompile Include="userManagement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="button.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="listFunctions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -60,9 +54,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="pch.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="visualFunctions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="eventMenu.h">
@@ -81,9 +72,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="userManagement.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="button.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="listFunctions.h">

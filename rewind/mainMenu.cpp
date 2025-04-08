@@ -27,9 +27,12 @@ void showMainMenu(std::string username) {
         std::cout << std::endl;
         centerText("Logged in as: " + username);
         std::cout << std::endl;
+        centerText("Your contributions: " + std::to_string(findContributions(username)));
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
 
         char key = _getch();
+
+        if (key == 224) key = _getch();
 
         if (key == 72) {
             selectedOption = (selectedOption == 0) ? 3 : selectedOption - 1;

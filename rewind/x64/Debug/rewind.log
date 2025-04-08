@@ -1,22 +1,35 @@
-﻿  button.cpp
-  eventManager.cpp
+﻿  eventManager.cpp
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\eventManager.cpp(237,99): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\eventManager.cpp(248,99): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\eventManager.cpp(253,105): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\eventManager.cpp(258,113): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\eventManager.cpp(277,33): warning C4309: '=': truncation of constant value
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\eventManager.cpp(281,33): warning C4309: '=': truncation of constant value
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\eventManager.cpp(372,105): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\eventManager.cpp(383,105): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\eventManager.cpp(388,111): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\eventManager.cpp(393,119): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\eventManager.cpp(412,33): warning C4309: '=': truncation of constant value
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\eventManager.cpp(416,33): warning C4309: '=': truncation of constant value
   eventMenu.cpp
-  eventStorage.cpp
   listFunctions.cpp
   loginScreen.cpp
-C:\Users\Pepsi\Documents\rewind\linked-list-sprint-project-rewind\rewind\loginScreen.cpp(49,85): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Pepsi\Documents\rewind\linked-list-sprint-project-rewind\rewind\loginScreen.cpp(65,33): warning C4309: '=': truncation of constant value
-C:\Users\Pepsi\Documents\rewind\linked-list-sprint-project-rewind\rewind\loginScreen.cpp(69,33): warning C4309: '=': truncation of constant value
-C:\Users\Pepsi\Documents\rewind\linked-list-sprint-project-rewind\rewind\loginScreen.cpp(130,85): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Pepsi\Documents\rewind\linked-list-sprint-project-rewind\rewind\loginScreen.cpp(142,33): warning C4309: '=': truncation of constant value
-C:\Users\Pepsi\Documents\rewind\linked-list-sprint-project-rewind\rewind\loginScreen.cpp(146,33): warning C4309: '=': truncation of constant value
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\loginScreen.cpp(36,88): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\loginScreen.cpp(52,33): warning C4309: '=': truncation of constant value
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\loginScreen.cpp(56,33): warning C4309: '=': truncation of constant value
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\loginScreen.cpp(117,88): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\loginScreen.cpp(129,33): warning C4309: '=': truncation of constant value
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\loginScreen.cpp(133,33): warning C4309: '=': truncation of constant value
   loginValidation.cpp
   main.cpp
   mainMenu.cpp
   reportsManager.cpp
   reportsMenu.cpp
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\reportsMenu.cpp(74,87): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\reportsMenu.cpp(87,37): warning C4309: '=': truncation of constant value
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\reportsMenu.cpp(91,37): warning C4309: '=': truncation of constant value
   userManagement.cpp
-  visualFunctions.cpp
-C:\Users\Pepsi\Documents\rewind\linked-list-sprint-project-rewind\rewind\visualFunctions.cpp(49,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\rewind\userManagement.cpp(42,27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   Generating Code...
-  rewind.vcxproj -> C:\Users\Pepsi\Documents\rewind\linked-list-sprint-project-rewind\x64\Debug\rewind.exe
+  LINK : C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\x64Debug\rewind.exe not found or not built by the last incremental link; performing full link
+  rewind.vcxproj -> C:\Users\sunbe\Desktop\finala\linked-list-sprint-project-rewind\x64Debug\rewind.exe

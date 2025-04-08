@@ -1,6 +1,6 @@
 #include "userManagement.h"
 
-void createNewUser(const std::string userPassword, const std::string userName) {
+void createNewUser(const std::string userPassword, const std::string username) {
     std::ifstream checkFile("users.csv");
     if (!checkFile) {
         std::ofstream createFile("users.csv");
@@ -8,10 +8,10 @@ void createNewUser(const std::string userPassword, const std::string userName) {
     }
 
     std::ofstream file("users.csv", std::ios::app);
-    file << userName << "," << userPassword << ",0\n";
+    file << username << "," << userPassword << ",0\n";
 }
 
-bool findExistingUser(const std::string userPassword, const std::string userName) {
+bool findExistingUser(const std::string userPassword, const std::string username) {
     std::ifstream file;
     file.open("users.csv", std::ios_base::in);
 
@@ -22,7 +22,7 @@ bool findExistingUser(const std::string userPassword, const std::string userName
         if (commaPos == std::string::npos) {
             continue;
         }
-        if (currentLine.substr(0, commaPos) == userName + "," + userPassword) {
+        if (currentLine.substr(0, commaPos) == username + "," + userPassword) {
             file.close();
             return true;
         }
@@ -30,4 +30,64 @@ bool findExistingUser(const std::string userPassword, const std::string userName
 
     file.close();
     return false;
+}
+
+int findContributions(const std::string username) {
+    std::ifstream file("users.csv");
+    std::string currentLine;
+
+    while (std::getline(file, currentLine)) {
+        
+        if (currentLine.find(username + ",") == 0) {
+            int lastComma = currentLine.rfind(',');
+            if (lastComma != -1) {
+                std::string countStr = currentLine.substr(lastComma + 1);
+
+                int count = 0;
+                for (int i = 0; i < countStr.length(); ++i) {
+                    if (countStr[i] >= '0' && countStr[i] <= '9') {
+                        count = count * 10 + (countStr[i] - '0');
+                    }
+                    else {
+                        break;
+                    }
+                }
+
+                file.close();
+                return count;
+            }
+        }
+    }
+
+    file.close();
+    return -1;
+}
+
+void updateContributions(const std::string username, bool isIncreased) {
+    std::ifstream file("users.csv");
+    std::string currentLine;
+    std::string updatedContent;
+
+    while (std::getline(file, currentLine)) {
+
+        if (currentLine.rfind(username + ",", 0) == 0) {
+            size_t lastComma = currentLine.rfind(',');
+            if (lastComma != std::string::npos) {
+                std::string contributionStr = currentLine.substr(lastComma + 1);
+                int contributions = std::stoi(contributionStr);
+                contributions += isIncreased ? 1 : -1;
+                if (contributions < 0) contributions = 0;
+
+                currentLine = currentLine.substr(0, lastComma + 1) + std::to_string(contributions);
+            }
+        }
+
+        updatedContent += currentLine + "\n";
+    }
+
+    file.close();
+
+    std::ofstream outFile("users.csv");
+    outFile << updatedContent;
+    outFile.close();
 }

@@ -332,9 +332,14 @@ void confirmChanges(EVENT** head, EVENT* newEvent, int prevOption) {
         if (keyboardInput == 13) {
             selecting = false;
             if (selectedOption == 0) {
-                if (prevOption == 3) removeElement(head, newEvent);
-
-                if (prevOption == 1) confirmEventPosition(head, *newEvent);
+                if (prevOption == 3) {
+                    updateContributions(newEvent->eventContributor, false);
+                    removeElement(head, newEvent);
+                }
+                if (prevOption == 1) {
+                    updateContributions(newEvent->eventContributor, true);
+                    confirmEventPosition(head, *newEvent);
+                }
                 else updateEventsFile(*head);
             }
             else return;
@@ -428,7 +433,7 @@ void editEvent(EVENT** head, EVENT* editedEvent) {
                 std::string* targetStr = &(editedEvent->*writingFields[selectedOption]);
                 int maxLength = (selectedOption != 1) ? 32 : 10;
                 bool isValidInput = validEventRange(keyboardInput);
-
+                
                 if (isValidInput && targetStr->length() < maxLength) *targetStr += keyboardInput;
                 else if (keyboardInput == 8 && !targetStr->empty()) targetStr->pop_back();
             }
