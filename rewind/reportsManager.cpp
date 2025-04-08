@@ -1,141 +1,58 @@
-#include "./pch.h"
-#include "./reportsManager.h"
-#include "./eventManager.h"
-#include "./visualFunctions.h"
+#include "reportsManager.h"
 
-extern Event* head;
+bool chooseOrder() {
+    std::string orderOptions[] = { "Ascending", "Descending" };
 
-void PrintReportHeader(const std::string& title) {
-    clearScreen();
-    std::cout << "\n";
-    centerText("-----------------------");
-    centerText("====================================");
-    centerText(title + " REPORT");
-    centerText("====================================");
-    std::cout << "\n";
-}
+    int selectedOption = 0;
 
-void PrintReportFooter() {
-    std::cout << "\n";
-    centerText("------------------------------------");
-    centerText(" END OF REPORT");
-    centerText("------------------------------------");
-    std::cout << "\n";
+    bool selecting = true;
 
-    centerText("Press any key to continue...");
-    _getch();
-}
+    while (selecting) {
+        clearScreen();
 
-void ShowEventsByField(const std::string& prompt, const std::string& fieldName) {
-    PrintReportHeader("EVENTS BY " + fieldName);
+        paddingUp(16);
 
-    std::string searchQuery;
-    centerText(prompt);
-    std::cout << std::string((getConsoleWidth() - 1) / 2, ' ') << " > ";
-    std::getline(std::cin, searchQuery);
+        centerText("Choose sorting order:");
 
-    if (searchQuery.empty()) {
-        centerText("Search cancelled. Returning to menu...");
-        centerText("Press any key to continue...");
-        _getch();
-        return;
+        paddingUp(2);
+
+        printBoxesB(orderOptions, 2, selectedOption, 24, 6);
+
+        char keyboardInput = _getch();
+
+        if (keyboardInput == 75) selectedOption = (selectedOption == 0) ? 1 : selectedOption - 1;
+        if (keyboardInput == 77) selectedOption = (selectedOption == 1) ? 0 : selectedOption + 1;
+        if (keyboardInput == 13) return !selectedOption;
     }
 
-    bool found = false;
-    Event* current = head;
+    return true;
+}
 
-    while (current != nullptr) {
-        std::string fieldValue;
+void setReportsByKeyword(EVENT* allEvents, EVENT** reportedEvents, std::string keyword) {
+    if (allEvents == nullptr) return;
 
-        if (fieldName == "DATE") {
-            fieldValue = current->date;
-            std::cout << "Checking DATE: " << fieldValue << std::endl;
-        }
-        else if (fieldName == "TITLE") {
-            fieldValue = current->title;
-            std::cout << "Checking TITLE: " << fieldValue << std::endl;
-        }
-        else if (fieldName == "THEME") {
-            fieldValue = current->theme;
-            std::cout << "Checking THEME: " << fieldValue << std::endl;
-        }
-        else if (fieldName == "LOCATION") {
-            fieldValue = current->location;
-            std::cout << "Checking LOCATION: " << fieldValue << std::endl;
-        }
-        else if (fieldName == "PARTICIPANTS") {
-            fieldValue = current->participants;
-            std::cout << "Checking PARTICIPANTS: " << fieldValue << std::endl;
-        }
-        else if (fieldName == "RESULT") {
-            fieldValue = current->result;
-            std::cout << "Checking RESULT: " << fieldValue << std::endl;
-        }
-
-        if (fieldValue.find(searchQuery) != std::string::npos) {
-            PrintEventDetails(*current);
-            found = true;
-        }
-
-        current = current->next;
+    if (allEvents->title == keyword ||
+        allEvents->theme == keyword ||
+        allEvents->location == keyword ||
+        allEvents->participants == keyword ||
+        allEvents->eventContributor == keyword) {
+        append(reportedEvents, *allEvents);
     }
 
-    if (!found) centerText("No events found matching this " + fieldName + ".");
-
-    PrintReportFooter();
+    setReportsByKeyword(allEvents->next, reportedEvents, keyword);
 }
 
-void ShowEventsByDate() {
-    ShowEventsByField("Enter date (or part of it) to search:", "DATE");
+void setReportsByResult(EVENT* allEvents, EVENT** reportedEvents) {
+    bool isAscending = chooseOrder();
+
+    copyByResult(allEvents, reportedEvents, !isAscending);
+    copyByResult(allEvents, reportedEvents, isAscending);
 }
 
-void ShowEventsByTitle() {
-    ShowEventsByField("Enter title (or part of it) to search:", "TITLE");
-}
+void setReportsByComparison(EVENT* allEvents, EVENT** reportedEvents, std::string EVENT::* comparedMember) {
+    bool isAscending = chooseOrder();
 
-void ShowEventsByTheme() {
-    ShowEventsByField("Enter theme (or part of it) to search:", "THEME");
-}
+    copyContent(allEvents, reportedEvents);
 
-void ShowEventsByLocation() {
-    ShowEventsByField("Enter location (or part of it) to search:", "LOCATION");
-}
-
-void ShowEventsByParticipants() {
-    ShowEventsByField("Enter participants (or part of it) to search:", "PARTICIPANTS");
-}
-
-void ShowEventsByResult() {
-    ShowEventsByField("Enter result (or part of it) to search:", "RESULT");
-}
-
-void SearchEvent() {
-    PrintReportHeader("SEARCH EVENTS");
-
-    std::string query;
-    centerText("Enter a keyword to search in all fields (or press Enter to see all):");
-    std::cout << std::string((getConsoleWidth() - 1) / 2, ' ') << " > ";
-    std::getline(std::cin, query);
-
-    bool found = false;
-    Event* current = head;
-
-    while (current != nullptr) {
-        if (query.empty() ||
-            current->date.find(query) != std::string::npos ||
-            current->title.find(query) != std::string::npos ||
-            current->theme.find(query) != std::string::npos ||
-            current->location.find(query) != std::string::npos ||
-            current->participants.find(query) != std::string::npos ||
-            current->result.find(query) != std::string::npos) {
-
-            PrintEventDetails(*current);
-            found = true;
-        }
-        current = current->next;
-    }
-
-    if (!found) centerText("No events found matching that keyword.");
-
-    PrintReportFooter();
+    sortEvents(reportedEvents, comparedMember, isAscending);
 }
