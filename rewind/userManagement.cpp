@@ -11,6 +11,7 @@ void createNewUser(const std::string userPassword, const std::string username) {
     file << username << "," << userPassword << ",0\n";
 }
 
+//Used for logging in
 bool findExistingUser(const std::string userPassword, const std::string username) {
     std::ifstream file;
     file.open("users.csv", std::ios_base::in);
@@ -32,6 +33,7 @@ bool findExistingUser(const std::string userPassword, const std::string username
     return false;
 }
 
+//The contributions count is displayed in the main menu
 int findContributions(const std::string username) {
     std::ifstream file("users.csv");
     std::string currentLine;
@@ -63,6 +65,7 @@ int findContributions(const std::string username) {
     return -1;
 }
 
+//Contributions count is updated every time an event is deleted or added to the events.csv file
 void updateContributions(const std::string username, bool isIncreased) {
     std::ifstream file("users.csv");
     std::string currentLine;

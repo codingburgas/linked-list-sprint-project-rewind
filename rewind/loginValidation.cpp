@@ -1,5 +1,6 @@
 #include "loginValidation.h"
 
+//Input ranges for username and password
 bool validPasswordRange(char input) {
     return (input >= 33 && input <= 126);
 }
@@ -12,6 +13,7 @@ bool validUsernameRange(char input) {
         input == 95;
 }
 
+//Used to see if the entered username in sign up has been taken already
 bool findUsername(std::string username) {
     std::ifstream file;
     file.open("users.csv", std::ios_base::in);
@@ -33,6 +35,7 @@ bool findUsername(std::string username) {
     return false;
 }
 
+//Cases for user password
 bool* checkPassword(const std::string& password) {
     bool* checks = new bool[5] {false, false, false, false, false};
 
@@ -50,6 +53,7 @@ bool* checkPassword(const std::string& password) {
     return checks;
 }
 
+//Cases for username
 bool* checkUsername(const std::string& username) {
     bool* checks = new bool[2] {false, false};
 
@@ -59,6 +63,7 @@ bool* checkUsername(const std::string& username) {
     return checks;
 }
 
+//If username and password don't pass the cases, fullValidation doesn't let the user sign up
 bool fullValidation(std::string& password, std::string& username) {
     bool* passChecks = checkPassword(password);
     bool* nameChecks = checkUsername(username);
@@ -71,6 +76,7 @@ bool fullValidation(std::string& password, std::string& username) {
     return result;
 }
 
+//Criteria is printed in the sign up page
 void printCriteria(std::string input, int inputId) {
     paddingUp(10);
 

@@ -1,5 +1,6 @@
 #include "reportsMenu.h"
 
+//displayes reports
 void showReports(EVENT* reportedEvents, std::string username) {
     bool selecting = true;
 
@@ -12,14 +13,11 @@ void showReports(EVENT* reportedEvents, std::string username) {
 
         paddingUp(16);
 
-        printEvents(reportedEvents, 0, selectedEvent + startIndex, startIndex, 10, false, username);;
+        printEvents(reportedEvents, 0, selectedEvent + startIndex, startIndex, 10, false, username);
 
         char input = _getch();
 
-        if (input == 13) {
-            clearList(&reportedEvents);
-            return;
-        }
+        if (input == 13) return;
 
         if (input == 72) {
             if (selectedEvent == 0) {
@@ -44,8 +42,10 @@ void showReports(EVENT* reportedEvents, std::string username) {
             }
         }
     }
+    clearList(&reportedEvents);
 }
 
+//Either enter keyword from keyboard or sort reports based on criteria 
 void browseReportsByX(int prevOption, EVENT* allEvents, std::string username) {
     clearScreen();
 
@@ -75,7 +75,7 @@ void browseReportsByX(int prevOption, EVENT* allEvents, std::string username) {
 
             paddingUp(2);
 
-            printBoxA("         Exit         ", selectedOption == 1, 24);
+            printBoxA("         Back         ", selectedOption == 1, 24);
 
             char keyboardInput = _getch();
 
@@ -171,6 +171,7 @@ void browseReportsByX(int prevOption, EVENT* allEvents, std::string username) {
     }
 }
 
+//Redirects the user to sorting by entered keyword and sorting by members of EVENT struct
 void showReportsMenu(std::string username) {
     EVENT* allEvents = new EVENT;
     allEvents = nullptr;
@@ -205,5 +206,6 @@ void showReportsMenu(std::string username) {
             else return;
         }
     }
+
     clearList(&allEvents);
 }

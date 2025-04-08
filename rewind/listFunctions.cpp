@@ -22,6 +22,7 @@ void copyContent(EVENT* sourceList, EVENT** copyList) {
     copyContent(sourceList->next, copyList);
 }
 
+//Goes through the allEvents list and copies the elements based on the value of copyVictories
 void copyByResult(EVENT* allEvents, EVENT** reportedEvents, bool copyVictories) {
     if (!allEvents) return;
 
@@ -43,6 +44,7 @@ void insertAt(EVENT** head, int index, const EVENT& newEvent) {
     }
     else if (index == getEventCount(*head)) {
         append(head, newEvent);
+        return;
     }
 
     EVENT* temp = *head;
@@ -96,6 +98,7 @@ void clearList(EVENT** head) {
     *head = nullptr;
 }
 
+//Date is stored as a string, so it's converted to a number, before comparison
 int convertDate(std::string date) {
     int day = (date[0] - '0') * 10 + (date[1] - '0');
     int month = (date[3] - '0') * 10 + (date[4] - '0');
@@ -104,6 +107,7 @@ int convertDate(std::string date) {
     return year * 10000 + month * 100 + day;
 }
 
+//Functions for merge sort algorithm all work by comparing given member of EVENT struct
 EVENT* merge(EVENT* first, EVENT* second, std::string EVENT::* sortField, bool ascending) {
     if (!first) return second;
     if (!second) return first;

@@ -1,5 +1,6 @@
 #include "reportsManager.h"
 
+//Gives the user the choice of sorting order
 bool chooseOrder() {
     std::string orderOptions[] = { "Ascending", "Descending" };
 
@@ -28,6 +29,7 @@ bool chooseOrder() {
     return true;
 }
 
+//Function for sorting Reported Events based on keyword input by user
 void setReportsByKeyword(EVENT* allEvents, EVENT** reportedEvents, std::string keyword) {
     if (allEvents == nullptr) return;
 
@@ -42,17 +44,22 @@ void setReportsByKeyword(EVENT* allEvents, EVENT** reportedEvents, std::string k
     setReportsByKeyword(allEvents->next, reportedEvents, keyword);
 }
 
+//Function for sorting Reported Events based on losses or victories for Bulgaria
 void setReportsByResult(EVENT* allEvents, EVENT** reportedEvents) {
     bool isAscending = chooseOrder();
 
+    clearList(reportedEvents);
+
+    //The function is called twice: once for victories, once for losses
     copyByResult(allEvents, reportedEvents, !isAscending);
     copyByResult(allEvents, reportedEvents, isAscending);
 }
 
+//Main function for sorting Reported Events based on what member is to be compared
 void setReportsByComparison(EVENT* allEvents, EVENT** reportedEvents, std::string EVENT::* comparedMember) {
     bool isAscending = chooseOrder();
 
-    copyContent(allEvents, reportedEvents);
+    if (getEventCount(*reportedEvents) < getEventCount(allEvents)) copyContent(allEvents, reportedEvents);
 
     sortEvents(reportedEvents, comparedMember, isAscending);
 }

@@ -1,5 +1,6 @@
 #include "eventManager.h"
 
+//Updated after every change
 void updateEventsFile(EVENT* head) {
     std::ofstream outFile("events.csv", std::ios::trunc);
 
@@ -18,6 +19,7 @@ void updateEventsFile(EVENT* head) {
     outFile.close();
 }
 
+//Updates the position of the comma, used in event initialization
 void updateLinePos(std::string& currentLine, size_t& commaPos) {
     currentLine = currentLine.substr(commaPos + 1);
     commaPos = currentLine.find(',');
@@ -39,6 +41,7 @@ bool isDateValid(std::string& date) {
     return true;
 }
 
+//If event is to be inserted based on their date, this function returns position of insertion
 int getPosDate(EVENT* head, const EVENT& newEvent) {
     int index = 0;
 
@@ -85,6 +88,7 @@ bool findEventByTitle(std::string eventTitle) {
     return false;
 }
 
+//Valid input range for event details
 bool validEventRange(char input) {
     return (input >= '0' && input <= '9') ||
         (input >= 'A' && input <= 'Z') ||
@@ -104,6 +108,7 @@ bool areAttributesFilled(EVENT* newEvent) {
         !newEvent->participants.empty();
 }
 
+//Reads events from events.csv file and appends them to given list
 void initializeEvents(EVENT** head) {
     std::ifstream file;
     file.open("events.csv", std::ios_base::in);
@@ -298,7 +303,7 @@ void addEvent(EVENT** head, std::string username) {
         else {
             if (selectedOption < 5) {
                 std::string* targetStr = &(newEvent->*writingFields[selectedOption]);
-                int maxLength = (selectedOption != 1) ? 32 : 10;
+                int maxLength = (selectedOption != 1) ? 48 : 10;
                 bool isValidInput = validEventRange(keyboardInput);
 
                 if (isValidInput && targetStr->length() < maxLength) *targetStr += keyboardInput;
@@ -431,7 +436,7 @@ void editEvent(EVENT** head, EVENT* editedEvent) {
         else {
             if (selectedOption < 5) {
                 std::string* targetStr = &(editedEvent->*writingFields[selectedOption]);
-                int maxLength = (selectedOption != 1) ? 32 : 10;
+                int maxLength = (selectedOption != 1) ? 48 : 10;
                 bool isValidInput = validEventRange(keyboardInput);
                 
                 if (isValidInput && targetStr->length() < maxLength) *targetStr += keyboardInput;

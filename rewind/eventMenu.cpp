@@ -1,5 +1,6 @@
 #include "eventMenu.h"
 
+//Prints events, X at a time
 void printEvents(EVENT* head, int currentEvent, int selectedEvent, int startIndex, int displayedEvents, bool eventIsChosen, std::string username) {
     if (!head) return;
     else if (currentEvent >= startIndex && currentEvent <= startIndex + displayedEvents - 1) {
@@ -56,6 +57,8 @@ void showEventsMenu(std::string username) {
         if (!allEvents) {
             addFirstEvent(&allEvents, username);
         }
+
+        if (selectedEvent > getEventCount(allEvents) - 1) selectedEvent = startIndex;
 
         clearScreen();
 

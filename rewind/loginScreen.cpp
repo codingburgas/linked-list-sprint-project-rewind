@@ -159,6 +159,7 @@ void logIn() {
     }
 }
 
+//Redirects to either logIn, signUp, or stops the programme
 void logInScreen() {
     clearScreen();
 
