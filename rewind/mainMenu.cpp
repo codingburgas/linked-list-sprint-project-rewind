@@ -42,7 +42,7 @@ void showMainMenu(std::string username) {
                 showEventsMenu(username);
             }
             else if (selectedOption == 1) {
-                // showReportsMenu(username);
+                showReportsMenu(username);
             }
             else if (selectedOption == 2) {
                 selecting = false;

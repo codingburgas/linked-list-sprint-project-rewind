@@ -1,13 +1,11 @@
 #pragma once
-#include <string>
-#include <vector>
-#include "./eventManager.h"
+#include "pch.h"
+#include "visualFunctions.h"
+#include "eventMenu.h"
+#include "reportsManager.h"
+#include "listFunctions.h"
+#include "eventManager.h"
 
-void ShowEventsByDate();
-void ShowEventsByTitle();
-void ShowEventsByTheme();
-void ShowEventsByLocation();
-void ShowEventsByParticipants();
-void ShowEventsByResult();
-void SearchEvent();
-void ShowReportsMenu();
+void showReports(EVENT* reportedEvents, std::string username);
+void showReportsMenu(std::string username);
+void browseReportsByX(int prevOption, EVENT* allEvents, std::string username);
